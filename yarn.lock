@@ -406,10 +406,10 @@
   resolved "https://registry.yarnpkg.com/@sudoo/eslint-config-react/-/eslint-config-react-1.4.0.tgz#4ade98bb69d71ccc5f101d258bface2bc7a16310"
   integrity sha512-7c6POoU5KX/IrQb6ZD8JobI08sdXKpvlfzFRY8ZVukvKaruVdkSNMfkLnWGlfc/gKfPqpKEXN2hnbQqgA6zQvg==
 
-"@sudoo/eslint-config@1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@sudoo/eslint-config/-/eslint-config-1.8.0.tgz#95883b96767261dbead3ed877ccd61b7010124ac"
-  integrity sha512-Ec9ATAyKI0SU4Ji9OqWd1/GauFv1vKEDBWlq5mPAuTBge0MkQ6CsMiVfaFBTVao8U4MspgoIQ2inJ42t+pvtHw==
+"@sudoo/eslint-config@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/eslint-config/-/eslint-config-1.9.0.tgz#b42d65c1458052680b185c4b31dec42ec26cfbab"
+  integrity sha512-TgGdJQB93go9pknnDv5klolsa1bvJwiXVur+S5oL6TY0xg3C4QQeqeNHhOZ2qD4bkZ2upwr2N/LraUfxRJz8hg==
 
 "@sudoo/mocha-config-react-native@3.1.0":
   version "3.1.0"
@@ -447,12 +447,12 @@
     react-dom "18.2.0"
     react-router-dom "6.4.4"
 
-"@sudoo/triforce@^3.10.0":
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/@sudoo/triforce/-/triforce-3.10.0.tgz#455026c868c2e53fb0f503a61c030c89d0c81f63"
-  integrity sha512-ITeeK7EbdhiYRQ0hcQW46OvIinWXi0PzIF02B5aNcB+63Q0RYtudyd6pJ8hldMno2fH1tzNuPWbAFn/7q8HWGQ==
+"@sudoo/triforce@^3.10.1":
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/@sudoo/triforce/-/triforce-3.10.1.tgz#0fc26838f7dd802114c7126b32ac74f6a549ba08"
+  integrity sha512-081hZmWhxCcahYVi36FamLd4orq4KoRzUavEQjjMf15nugaI8vEG8cFd3XzL2QbnphdqQ1GWb8xWB9/ROWIvkw==
   dependencies:
-    "@sudoo/eslint-config" "1.8.0"
+    "@sudoo/eslint-config" "1.9.0"
     "@sudoo/eslint-config-react" "1.4.0"
     "@sudoo/eslint-config-react-a11y" "1.0.0"
     "@sudoo/mocha-config" "3.1.0"

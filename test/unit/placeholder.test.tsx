@@ -5,24 +5,24 @@
  * @override Unit Test
  */
 
+import { render, screen } from "@testing-library/react";
 import { expect } from "chai";
 import * as Chance from "chance";
-import { render, screen } from '@testing-library/react'
 import * as React from "react";
 
-describe('Placeholder', (): void => {
+describe("Placeholder", (): void => {
 
-    const chance: Chance.Chance = new Chance('placeholder');
+    const chance: Chance.Chance = new Chance("placeholder");
 
-    it('Placeholder', async (): Promise<void> => {
+    it("Placeholder", async (): Promise<void> => {
 
         render(<div>
             123
         </div>);
 
 
-        console.log(screen.getByText('123'));
-        expect(screen.getByText('123'))
+        console.log(screen.getByText("123"));
+        expect(screen.getByText("123"));
 
         expect(chance.string()).to.be.not.equal(chance.string());
     });

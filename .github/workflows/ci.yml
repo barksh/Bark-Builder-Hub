@@ -37,9 +37,9 @@ jobs:
           sudoo-build lint
       - name: Build
         run: |
-          sudoo-build build
+          yarn run build
       - name: Test
         run: |
-          sudoo-build coverage
+          sudoo-build --type typescript-react coverage
       - name: Codecov
         uses: codecov/codecov-action@v1
