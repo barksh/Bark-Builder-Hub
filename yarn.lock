@@ -255,6 +255,19 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@barksh/engine@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@barksh/engine/-/engine-3.0.0.tgz#94755cfb5e8ab2098630b23e5db1f0e270fa88eb"
+  integrity sha512-18ip2rv+quKjigx5vi1fDgGfTAUoICTb7oz2+mYlDRhtJspf8ZMGX6QsVLWkYKxCJh/fI3/aWBWGCcn2EQ+NRg==
+  dependencies:
+    "@sudoo/marked" "^3.17.0"
+    "@sudoo/marked-mixin-date" "^1.0.0"
+    "@sudoo/marked-mixin-json" "^1.0.0"
+    "@sudoo/marked-mixin-math" "^1.4.0"
+    "@sudoo/marked-mixin-object" "^1.3.0"
+    "@sudoo/marked-mixin-parse" "^1.0.0"
+    connor "^2.7.0"
+
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz#00629c35a688e05a88b1cda684fb9d5e73f000a1"
@@ -410,6 +423,55 @@
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@sudoo/eslint-config/-/eslint-config-1.9.0.tgz#b42d65c1458052680b185c4b31dec42ec26cfbab"
   integrity sha512-TgGdJQB93go9pknnDv5klolsa1bvJwiXVur+S5oL6TY0xg3C4QQeqeNHhOZ2qD4bkZ2upwr2N/LraUfxRJz8hg==
+
+"@sudoo/marked-mixin-date@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-date/-/marked-mixin-date-1.0.0.tgz#92a6cca2114f0e2706f8ccc8cc0cf7ccea39ee80"
+  integrity sha512-V71za3wg+WxEvRh7fNvgKVu2FBnAonCkSbIX9pLoKhOfQ+Xs5e01QEmyWsMs0br5GdJiPRltPwWi6cb2hG8FLg==
+  dependencies:
+    "@sudoo/marked-mixin" "^1.4.0"
+
+"@sudoo/marked-mixin-json@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-json/-/marked-mixin-json-1.0.0.tgz#81084ffa91231fa991d111156ac891d93f4974a1"
+  integrity sha512-NbJo3knrXjvWFzfnM114yqu41FHW9XMifPjgjTWjd/PiA+vpy6ZHxGW6g6KWvpSRDyqeyVHMSNKn5GBRpzKLDQ==
+  dependencies:
+    "@sudoo/marked-mixin" "^1.4.0"
+
+"@sudoo/marked-mixin-math@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-math/-/marked-mixin-math-1.4.0.tgz#b19c078de470737111b6be2a7f13146fd679e527"
+  integrity sha512-87uv9Z0SuvOnR2nZkAoiJ9nEyl5exPsvD0TSINSctbKcs9Syb+WT9KdWc38Hy//yzRlisiDFaNBF4W/kPWsOKw==
+  dependencies:
+    "@sudoo/marked-mixin" "^1.2.0"
+
+"@sudoo/marked-mixin-object@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-object/-/marked-mixin-object-1.3.0.tgz#1af098823d7519373ab6915f88251d968a8de04a"
+  integrity sha512-ZlgrSukewIOZbw+nT3VI3cnhZCC4gVIQSlKvoHgcH8DR3/cevr1n29/PSHXErY/CwEZ9PkPokOFSRXO5qgY4+g==
+  dependencies:
+    "@sudoo/marked-mixin" "^1.2.0"
+
+"@sudoo/marked-mixin-parse@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-parse/-/marked-mixin-parse-1.0.0.tgz#3a3c4a7b36fc9a919fc8735a2b3a64ce74148be1"
+  integrity sha512-teTGVBJur/Ojv25etIwhlSbOmKF2Elpl3EsTE5dlQyR8cbiNZBoE63RLRwIf7L4r6DykTLqLXJM9HYYppgXUoA==
+  dependencies:
+    "@sudoo/marked-mixin" "^1.4.0"
+
+"@sudoo/marked-mixin@^1.2.0", "@sudoo/marked-mixin@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin/-/marked-mixin-1.4.0.tgz#c28b62ba083278b4dcfc5e0e7c94aecc15b0ee13"
+  integrity sha512-vr2o2Lm4RuKSgg00zmi/Rp3EMXFEgv8YDOYV1OvP/TrwJi4EJwOHuwoA6kQR1s13n4nnD8qwqgJChxZUiiH0rg==
+
+"@sudoo/marked@^3.17.0":
+  version "3.17.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked/-/marked-3.17.0.tgz#d82f68a202a77c11736237ee589f5fe57c9acd5c"
+  integrity sha512-rLUVaN5x5P7/084PFaGgZXDuDHYxE4EY9qwvpqJ6dns1WXJj4kQxsU6Ft59S3z9ngdESjlDkEp4hN8OsO48B0Q==
+  dependencies:
+    acorn "8.8.1"
+    sourcemap-codec "1.4.8"
+    typescript "4.9.3"
 
 "@sudoo/mocha-config-react-native@3.1.0":
   version "3.1.0"
@@ -731,7 +793,7 @@ acorn-walk@^8.0.2, acorn-walk@^8.1.1:
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
   integrity sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==
 
-acorn@^8.1.0, acorn@^8.4.1, acorn@^8.8.0, acorn@^8.8.1:
+acorn@8.8.1, acorn@^8.1.0, acorn@^8.4.1, acorn@^8.8.0, acorn@^8.8.1:
   version "8.8.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.1.tgz#0a3f9cbecc4ec3bea6f0a80b66ae8dd2da250b73"
   integrity sha512-7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==
@@ -1112,6 +1174,11 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
+
+connor@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/connor/-/connor-2.7.0.tgz#b2f04d86c516ba0dcc37dd87c0b80465c89e5f27"
+  integrity sha512-HzaNDJ1KI0vPz/O3ZlVQc2ZFu14GetTp7eQ/5gZ1PFyr7ovMPXsu0AujBzXgiQu162p3UCyFZbnAHY6KS3x8jA==
 
 convert-source-map@^1.7.0:
   version "1.9.0"
@@ -3229,7 +3296,7 @@ source-map@^0.6.1, source-map@~0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-sourcemap-codec@^1.4.8:
+sourcemap-codec@1.4.8, sourcemap-codec@^1.4.8:
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==

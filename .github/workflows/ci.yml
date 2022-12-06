@@ -34,7 +34,7 @@ jobs:
           sudoo-build install
       - name: Lint
         run: |
-          sudoo-build lint
+          sudoo-build --type typescript-react lint
       - name: Build
         run: |
           yarn run build
