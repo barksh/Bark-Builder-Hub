@@ -1,6 +1,6 @@
 /**
  * @author WMXPY
- * @namespace Editor
+ * @namespace Editor_Mount
  * @description Monaco
  */
 
@@ -12,7 +12,7 @@ import { markedObjectMonacoMixinFactory } from "@sudoo/marked-mixin-object-monac
 import { markedParseMonacoMixinFactory } from "@sudoo/marked-mixin-parse-monaco";
 import { MarkedMonacoManager } from "@sudoo/marked-monaco";
 
-export const mountMonacoEditor = async (monaco: Monaco): Promise<void> => {
+export const mountMonacoEditor = (monaco: Monaco): void => {
 
     const markedMonacoManager: MarkedMonacoManager =
         MarkedMonacoManager.createAndMountBase(monaco, 'javascript');

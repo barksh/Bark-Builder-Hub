@@ -6,7 +6,7 @@
 
 import React from "react";
 
-export const Entry: React.FC = () => {
+export const EntryView: React.FC = () => {
 
     return (<div>
         Test
