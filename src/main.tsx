@@ -9,7 +9,7 @@ import ReactDOM from "react-dom/client";
 import { EntryView } from "./entry";
 
 ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement,
+    document.getElementById("root") as HTMLElement,
 ).render(<React.StrictMode>
-  <EntryView />
+    <EntryView />
 </React.StrictMode>);
