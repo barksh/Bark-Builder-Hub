@@ -437,12 +437,26 @@
   resolved "https://registry.yarnpkg.com/@sudoo/eslint-config/-/eslint-config-1.9.0.tgz#b42d65c1458052680b185c4b31dec42ec26cfbab"
   integrity sha512-TgGdJQB93go9pknnDv5klolsa1bvJwiXVur+S5oL6TY0xg3C4QQeqeNHhOZ2qD4bkZ2upwr2N/LraUfxRJz8hg==
 
+"@sudoo/marked-mixin-date-monaco@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-date-monaco/-/marked-mixin-date-monaco-1.2.0.tgz#711ad224bb882f030eb3b302d84eddeab47aefc6"
+  integrity sha512-CXzSDQTeAYS/xBLZGQ83xiy3dp6VwwUaGI83N/olz4O+3vq5c/XZMdSIwKHtEgQb5vhwmObCQ4rSLI3lvXFpFw==
+  dependencies:
+    "@sudoo/marked-monaco-mixin" "^1.3.0"
+
 "@sudoo/marked-mixin-date@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-date/-/marked-mixin-date-1.0.0.tgz#92a6cca2114f0e2706f8ccc8cc0cf7ccea39ee80"
   integrity sha512-V71za3wg+WxEvRh7fNvgKVu2FBnAonCkSbIX9pLoKhOfQ+Xs5e01QEmyWsMs0br5GdJiPRltPwWi6cb2hG8FLg==
   dependencies:
     "@sudoo/marked-mixin" "^1.4.0"
+
+"@sudoo/marked-mixin-json-monaco@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-json-monaco/-/marked-mixin-json-monaco-1.0.0.tgz#ff31b2cb06cd3b493f9ea1d9a0c60b5060ec60e5"
+  integrity sha512-HGu/C3ZHzNT2nXsBpO7uJmCQa1fuUel/q/8J07Pj4VTfuZkvMZS/s7ZoMLMv05iylWRq/xqQvpAITcGOPZpSIw==
+  dependencies:
+    "@sudoo/marked-monaco-mixin" "^1.3.0"
 
 "@sudoo/marked-mixin-json@^1.0.0":
   version "1.0.0"
@@ -451,6 +465,13 @@
   dependencies:
     "@sudoo/marked-mixin" "^1.4.0"
 
+"@sudoo/marked-mixin-math-monaco@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-math-monaco/-/marked-mixin-math-monaco-1.2.0.tgz#c336a4356ca773752f9b35dfd12c91c4d82cd0d9"
+  integrity sha512-D8D4Set6HRzjNW4a3bj76bnOi6hJONCsRQHNAKUWzc6qBeuUrSezt08tXi0BTDlfWwupA4FbCTAiyWGa832CWQ==
+  dependencies:
+    "@sudoo/marked-monaco-mixin" "^1.2.0"
+
 "@sudoo/marked-mixin-math@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-math/-/marked-mixin-math-1.4.0.tgz#b19c078de470737111b6be2a7f13146fd679e527"
@@ -458,12 +479,26 @@
   dependencies:
     "@sudoo/marked-mixin" "^1.2.0"
 
+"@sudoo/marked-mixin-object-monaco@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-object-monaco/-/marked-mixin-object-monaco-1.2.0.tgz#fff4a1286fb6bc28fbfd4164f7a38b5fb5ebff8f"
+  integrity sha512-/1id4+yzIgGUov88q6EKZo+KLutoJP3NyydCMuZ3cLo7LItqdJK6xPF3BxMQ+nQbQD7QNgVBToP3WLQdJ2ueHg==
+  dependencies:
+    "@sudoo/marked-monaco-mixin" "^1.2.0"
+
 "@sudoo/marked-mixin-object@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-object/-/marked-mixin-object-1.3.0.tgz#1af098823d7519373ab6915f88251d968a8de04a"
   integrity sha512-ZlgrSukewIOZbw+nT3VI3cnhZCC4gVIQSlKvoHgcH8DR3/cevr1n29/PSHXErY/CwEZ9PkPokOFSRXO5qgY4+g==
   dependencies:
     "@sudoo/marked-mixin" "^1.2.0"
+
+"@sudoo/marked-mixin-parse-monaco@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin-parse-monaco/-/marked-mixin-parse-monaco-1.1.0.tgz#a0afdd8ba1e13871c3b22d286b3cd4930471a792"
+  integrity sha512-mxlXr6og66drD+hCICYOH+po2JpHzDf/yofxhgUjW0E2qd0ARikos6zRVU6EMCo9ZSkyBXDQj6/VdjwG+49VXQ==
+  dependencies:
+    "@sudoo/marked-monaco-mixin" "^1.3.0"
 
 "@sudoo/marked-mixin-parse@^1.0.0":
   version "1.0.0"
@@ -476,6 +511,16 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@sudoo/marked-mixin/-/marked-mixin-1.4.0.tgz#c28b62ba083278b4dcfc5e0e7c94aecc15b0ee13"
   integrity sha512-vr2o2Lm4RuKSgg00zmi/Rp3EMXFEgv8YDOYV1OvP/TrwJi4EJwOHuwoA6kQR1s13n4nnD8qwqgJChxZUiiH0rg==
+
+"@sudoo/marked-monaco-mixin@^1.2.0", "@sudoo/marked-monaco-mixin@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-monaco-mixin/-/marked-monaco-mixin-1.3.0.tgz#034c29660d124361c6294d3c67b7c6423a9fb5e5"
+  integrity sha512-icQ9M1XdWR+vMjjaUzHw6eEFy9zDR2splvi3SZDHYd1+Mt5lgN5Ldkcm0A7oDzIGMeVtjB7yAQ45Rj6GXRVsQQ==
+
+"@sudoo/marked-monaco@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@sudoo/marked-monaco/-/marked-monaco-1.4.0.tgz#ac591ef6d1bd9b9440c62dc2193e44e472074332"
+  integrity sha512-0qqRSommQIhtecHDyuRq9pqYtSieXpqmJtSWYNa7rRg795wN+jF/hjz777/7BkKgbvHxX7C4AVOHFycRqPU7Dg==
 
 "@sudoo/marked@^3.17.0":
   version "3.17.0"
