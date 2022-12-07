@@ -22,3 +22,6 @@ dist-ssr
 
 # NYC
 .nyc_output
+
+# Coverage directory used by tools like istanbul
+coverage
