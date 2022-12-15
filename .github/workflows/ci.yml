@@ -34,11 +34,11 @@ jobs:
       - name: Lint
         run: |
           sudoo-build --type typescript-react lint
-      - name: Build
-        run: |
-          yarn run build
       - name: Test
         run: |
           sudoo-build --type typescript-react coverage
+      - name: Build
+        run: |
+          yarn run build
       - name: Codecov
         uses: codecov/codecov-action@v1
